@@ -253,7 +253,7 @@ String __fastcall TForm1::CheckForOriginality(String* SerialNum, String* BiosDat
                else
                {
                     Run = false;
-                    return "Limit of copies!!";
+                    return "Limit of copies!";
                }
           }
      }

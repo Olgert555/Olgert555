@@ -203,7 +203,6 @@ void __fastcall TForm1::Btn1_ClickToTerminate(TObject *Sender)
 }
 //---------------------------------------------------------------------------
 
-// ôóíêö³ÿ, ùî ïåğåâ³ğÿº îğèã³íàëüí³ñòü ïğîãğàìè
 String __fastcall TForm1::CheckForOriginality(String* SerialNum, String* BiosDate)
 {
      string param = SerialNum->c_str()+(string)" "+BiosDate->c_str();
